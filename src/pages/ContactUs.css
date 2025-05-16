@@ -1,0 +1,76 @@
+.contact-container {
+  display: flex;
+  min-height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+  color: #3d3b39;
+}
+
+.contact-left {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+}
+
+.logo {
+  max-width: 200px;
+  height: auto;
+}
+
+.contact-right {
+  flex: 1;
+  border-left: 2px solid #3d3b39;
+  padding: 60px 40px;
+  background-color: #fafafa;
+}
+
+.contact-right h2 {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form label {
+  margin: 10px 0 5px;
+  font-size: 16px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 8px;
+  font-size: 15px;
+  border: none;
+  border-bottom: 3px solid #3d3b39;
+  background-color: transparent;
+  margin-bottom: 10px;
+  outline: none;
+}
+
+.form-bottom {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  gap: 15px;
+}
+
+.form-bottom button {
+  background-color: #3d3b39;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+  font-size: 18px;
+  color: #3d3b39;
+}

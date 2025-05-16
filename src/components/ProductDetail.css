@@ -1,0 +1,318 @@
+/* src/pages/ProductDetail.css */
+
+.product-detail {
+    padding: 2rem;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  .product-main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  
+.product-images {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.image-container {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+}
+
+.thumbnails-vertical {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.thumbnails-vertical img {
+  width: 60px;
+  height: 80px;
+  object-fit: cover;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.main-image {
+  width: 400px;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+
+.thumbnails img {
+  width: 60px;
+  height: 80px;
+  object-fit: cover;
+  cursor: pointer;
+  border: 1px solid #ccc;
+}
+
+/* Related Products Image Styling */
+.related-item img {
+  width: 150px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+
+  
+  .product-info {
+    flex: 1;
+    min-width: 300px;
+    background-color: #f3ece4;
+    padding: 1.5rem;
+    border-radius: 8px;
+  }
+  
+  .filters {
+    margin: 1rem 0;
+  }
+  
+  .colors {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .color {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid #999;
+    cursor: pointer;
+  }
+  
+  .color.white { background-color: white; }
+  .color.red { background-color: red; }
+  .color.cyan { background-color: cyan; }
+  .color.black { background-color: black; }
+  .color.grey { background-color: grey; }
+  .color.pink { background-color: pink; }
+  
+  .sizes {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .size {
+    border: 1px solid #333;
+    padding: 0.3rem 0.6rem;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .quantity {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+  }
+  
+  .quantity button {
+    padding: 0.3rem 0.6rem;
+    cursor: pointer;
+  }
+  
+  .add-to-bag {
+    background-color: #d42a6b;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-weight: bold;
+    margin-left: auto;
+  }
+  
+  .details {
+    margin-top: 1.5rem;
+  }
+  
+  .reviews {
+    margin-top: 2rem;
+  }
+  
+  .reviews .stars {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+  }
+  
+  .reviews input,
+  .reviews textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+  }
+  
+  .reviews button {
+    background-color: #333;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .related-products {
+    margin-top: 3rem;
+  }
+  
+  .related-products h3 {
+    margin-bottom: 1rem;
+  }
+  
+  .related-grid {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  
+  .related-item {
+    text-align: center;
+  }
+  
+/* COLORS GRID */
+.filters h4 {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.colors-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.6rem 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.color-block {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.85rem;
+}
+
+.color-square {
+  width: 18px;
+  height: 18px;
+  border: 1px solid #333;
+  border-radius: 2px;
+}
+
+/* All 18 Colors */
+.color-square.white { background-color: white; }
+.color-square.red { background-color: red; }
+.color-square.cyan { background-color: cyan; }
+.color-square.navy { background-color: navy; }
+.color-square.vermillion { background-color: #e34234; }
+.color-square.orange { background-color: orange; }
+.color-square.black { background-color: black; }
+.color-square.yellow { background-color: yellow; }
+.color-square.green { background-color: green; }
+.color-square.magenta { background-color: magenta; }
+.color-square.brown { background-color: brown; }
+.color-square.grey { background-color: grey; }
+.color-square.blue { background-color: blue; }
+.color-square.beigh { background-color: #f5f5dc; }
+.color-square.purple { background-color: purple; }
+.color-square.pink { background-color: pink; }
+.color-square.darks { background-color: #2c2c2c; }
+
+/* SIZES */
+.size-selection p {
+  font-weight: bold;
+  margin-bottom: 0.3rem;
+}
+
+.sizes {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.size {
+  border: 1px solid #333;
+  padding: 0.3rem 0.6rem;
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: white;
+}
+
+/* PRICE SLIDER */
+.price-range {
+  margin-top: 1rem;
+}
+
+.price-range p {
+  font-weight: bold;
+  margin-bottom: 0.3rem;
+  color: black;
+}
+
+.price-range input[type="range"] {
+  width: 100%;
+  accent-color: black;
+}
+
+.range-labels {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.85rem;
+}
+
+/* BUTTON STYLES */
+.quantity {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.quantity button {
+  padding: 0.3rem 0.6rem;
+  cursor: pointer;
+}
+
+/* Make ADD TO BAG button black */
+.add-to-bag {
+  background-color: #000;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-weight: bold;
+  margin-left: auto;
+}
+
+/* Style price range slider for black theme */
+.price-range input[type="range"]::-webkit-slider-thumb {
+  background: black;
+}
+.price-range input[type="range"]::-moz-range-thumb {
+  background: black;
+}
+.price-range input[type="range"]::-ms-thumb {
+  background: black;
+}
+.price-range input[type="range"]::-webkit-slider-runnable-track {
+  background: #333;
+}
+.price-range input[type="range"]::-moz-range-track {
+  background: #333;
+}
+.price-range input[type="range"]::-ms-track {
+  background: #333;
+}
+

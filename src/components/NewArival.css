@@ -1,0 +1,42 @@
+.new-arival-container {
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.section-heading {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.new-arival-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  padding: 2rem 1rem;
+  border-radius: 30px;
+  flex-wrap: wrap;
+}
+
+.arrival-card {
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease-in-out;
+    cursor: pointer;
+  transition: transform 0.2s;
+
+}
+
+.arrival-card:hover {
+  transform: translateY(-5px);
+  transform: scale(1.03);
+}
+
+.arrival-card img {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+}
