@@ -5,17 +5,17 @@ export const suits = [
     title: "Classic Kameez",
     type: "Printed | Cambric",
     description: "Printed Embroidered Cambric | Top Bottoms",
-    images: ["https://i.pinimg.com/474x/17/38/4b/17384b8dfa30fda84859d506d47cde5e.jpg", "https://i.pinimg.com/736x/07/c1/3b/07c13b4cd4a16d5a2613413fe1c13086.jpg", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6Ir5T7aP8WwT6D4JEFtIVNwZFZtmRi2PDeA&s"],
+    images: ["https://ketifa.pk/wp-content/uploads/2022/02/0103-spread-jpg.jpg", "https://i.pinimg.com/736x/07/c1/3b/07c13b4cd4a16d5a2613413fe1c13086.jpg", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6Ir5T7aP8WwT6D4JEFtIVNwZFZtmRi2PDeA&s"],
     price: "Rs. 2,490",
-    image: "https://hooraindesignerwear.com/cdn/shop/articles/maria-b-chiffon-collection-766508.webp?v=1721215438",
+    image: "https://ketifa.pk/wp-content/uploads/2022/02/0103-spread-jpg.jpg",
   },
   {
     title: "Drop Shoulder",
     type: "Yarn Dyed Embroidered",
     price: "Rs. 4,490",
         description: "Printed Embroidered Cambric | Top Bottoms",
-    images: ["https://i.pinimg.com/474x/17/38/4b/17384b8dfa30fda84859d506d47cde5e.jpg", "https://i.pinimg.com/736x/07/c1/3b/07c13b4cd4a16d5a2613413fe1c13086.jpg", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6Ir5T7aP8WwT6D4JEFtIVNwZFZtmRi2PDeA&s"],
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6Ir5T7aP8WwT6D4JEFtIVNwZFZtmRi2PDeA&s",
+    images: ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpx2p1x2lW63iyycd40s9-rjy1Uneo23PvSaqKD3potJOqFql1ZWdEUSAkMuBpqeLzcuI&usqp=CAU", "https://i.pinimg.com/736x/07/c1/3b/07c13b4cd4a16d5a2613413fe1c13086.jpg", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6Ir5T7aP8WwT6D4JEFtIVNwZFZtmRi2PDeA&s"],
+    image: "https://heerrang.pk/cdn/shop/products/Untitled-1_0028_AH6I3791.jpg?v=1648145624&width=533",
   },
   {
     title: "Classic Kurta",
@@ -23,7 +23,7 @@ export const suits = [
     price: "Rs. 2,190",
         description: "Printed Embroidered Cambric | Top Bottoms",
     images: ["https://i.pinimg.com/474x/17/38/4b/17384b8dfa30fda84859d506d47cde5e.jpg", "https://i.pinimg.com/736x/07/c1/3b/07c13b4cd4a16d5a2613413fe1c13086.jpg", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6Ir5T7aP8WwT6D4JEFtIVNwZFZtmRi2PDeA&s"],
-    image: "https://i.pinimg.com/736x/27/5c/1a/275c1ae9a2581e11fc1cb08b12b352b4.jpg",
+    image: "https://img.freepik.com/premium-photo/gorgeous-girl-portrait-wearing-traditional-pakistani-dress-fashion-shoot-garden_658768-601.jpg",
   },
   {
     title: "Classic Kameez",
@@ -31,7 +31,7 @@ export const suits = [
     price: "Rs. 2,490",
         description: "Printed Embroidered Cambric | Top Bottoms",
     images: ["https://i.pinimg.com/474x/17/38/4b/17384b8dfa30fda84859d506d47cde5e.jpg", "https://i.pinimg.com/736x/07/c1/3b/07c13b4cd4a16d5a2613413fe1c13086.jpg", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6Ir5T7aP8WwT6D4JEFtIVNwZFZtmRi2PDeA&s"],
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTR5eLgzJi0vTCio8BMNYteOCTX1-KH3ZfjaJ1AnwuUsCqIn9r4q-308NcHPB5mgRBvWj4&usqp=CAU",
+    image: "https://i.pinimg.com/736x/ae/0c/07/ae0c0732ddb65424a0e60b4b45a55114.jpg",
   },
   {
     title: "Drop Shoulder",
@@ -39,7 +39,7 @@ export const suits = [
     price: "Rs. 4,490",
         description: "Printed Embroidered Cambric | Top Bottoms",
     images: ["https://i.pinimg.com/474x/17/38/4b/17384b8dfa30fda84859d506d47cde5e.jpg", "https://i.pinimg.com/736x/07/c1/3b/07c13b4cd4a16d5a2613413fe1c13086.jpg", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6Ir5T7aP8WwT6D4JEFtIVNwZFZtmRi2PDeA&s"],
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVWrn6vuiPSMG8jOw9NHxhIQ7EIiVFa2I9hA_ZJ4KJytcjITZmJ7x7a6-FpocyE9DbTD4&usqp=CAU",
+    image: "https://i.pinimg.com/736x/9b/44/0d/9b440d5b0d509f85d68bbbdfea75d036.jpg",
   },
   {
     title: "Classic Kurta",
@@ -47,7 +47,7 @@ export const suits = [
     price: "Rs. 2,190",
         description: "Printed Embroidered Cambric | Top Bottoms",
     images: ["https://i.pinimg.com/474x/17/38/4b/17384b8dfa30fda84859d506d47cde5e.jpg", "https://i.pinimg.com/736x/07/c1/3b/07c13b4cd4a16d5a2613413fe1c13086.jpg", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6Ir5T7aP8WwT6D4JEFtIVNwZFZtmRi2PDeA&s"],
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxWT8FBdwoIKU_clJoBuOsT-MVeOxlzWgWJgCChF33t_Hu5oMA1QYahaDgcVk5tjuCzrY&usqp=CAU",
+    image: "https://media.istockphoto.com/id/1345121223/photo/young-beautiful-woman-stock-photo.jpg?s=612x612&w=0&k=20&c=S8fA0zOI4AVWS0ZCV2cOIq_d7KMDoDIbiN6FKfX9Zdg=",
   },
   {
     title: "Classic Kameez",
@@ -55,7 +55,7 @@ export const suits = [
     price: "Rs. 2,490",
         description: "Printed Embroidered Cambric | Top Bottoms",
     images: ["https://i.pinimg.com/474x/17/38/4b/17384b8dfa30fda84859d506d47cde5e.jpg", "https://i.pinimg.com/736x/07/c1/3b/07c13b4cd4a16d5a2613413fe1c13086.jpg", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6Ir5T7aP8WwT6D4JEFtIVNwZFZtmRi2PDeA&s"],
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVWrn6vuiPSMG8jOw9NHxhIQ7EIiVFa2I9hA_ZJ4KJytcjITZmJ7x7a6-FpocyE9DbTD4&usqp=CAU",
+    image: "https://umshaofficial.com/cdn/shop/products/SabaQamar2.jpg?v=1704196167&width=720",
   },
   {
     title: "Drop Shoulder",
@@ -63,7 +63,7 @@ export const suits = [
     price: "Rs. 4,490",
         description: "Printed Embroidered Cambric | Top Bottoms",
     images: ["/img1.jpg", "/img2.jpg", "/img3.jpg"],
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThZgJnn9bCk0qIFyTMBiJrsYLcBaSJu7_pdwH74aTLzmXwnRixTQQIksMBj-uYnaCYPJ0&usqp=CAU",
+    image: "https://dailytimes.com.pk/assets/uploads/2025/01/4ef8e4d6-3160-4168-932d-383e06b52fa7.jpg",
   },
   {
     title: "Classic Kurta",
